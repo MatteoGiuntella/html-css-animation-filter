@@ -176,3 +176,21 @@
         right: 20%;
     }
 }
+.ex-13-top-white:hover{
+    animation: boxtop 2s linear;
+
+}
+@keyframes boxtop {
+    0%{
+        right: 25%;
+    }
+    25%{
+        right: 25%;
+    }
+    75%{
+        right: 25%;
+    }
+    100%{
+        right: 25%;
+    }
+}
