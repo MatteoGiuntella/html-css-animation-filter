@@ -48,7 +48,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
-/* animation */
+    animation: spin 1s linear infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -120,4 +120,32 @@
     filter: grayscale(.6) sepia(.5);    
     border-radius: 20px;
     width: 500px;
+}
+.ex-10-icon {
+    animation: giro 1s linear infinite;
+}
+@keyframes giro {
+    0% {
+        transform: rotate(1turn);
+    }
+
+       
+}
+.ex-11-icon:hover {
+    animation: giro 1s linear ;
+}
+@keyframes giro {
+    0% {
+        transform: rotate(0);
+
+    }
+    80% {
+        transform: rotate( 300deg);
+
+    }
+    100%{
+        transform: rotate(0);
+    }
+
+       
 }
